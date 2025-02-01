@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="UTF-8">
+        <link rel="stylesheet" href="employee.css" >
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav>
+            <div class="sidenav">
+                <img src="logo.png" alt="image" style="border-radius: 50%" align="left" width="100"/>
+                <a href="http://localhost:8080/CS351_web_app/index.html"> Έξοδος</a>
+            </div>
+
+        </nav>
+
+        <br><br>
+        
+       <div class="left"> 
+           <h3>Αναζήτησε μια αίθουσα με βάση :</h3>
+           <br>
+            <div class="inner_left">
+                <input type="radio" id="capacity" name="search" value="capacity" onclick="tmp('0')" checked >
+                <label for="capacity"> Χωριτικότητα </label>
+                <input type="radio" id="status" name="search" value="status" onclick="tmp('1')">
+                <label for="location">Διαθεσιμότητα</label>
+                <input type="radio" id="type" name="search" value="type" onclick="tmp('2')">
+                <label for="type">Τύπο</label>
+            </div>
+            <br><br>
+            <label id="tmp">Διαθεσιμότητα :</label>
+            <input type="text" name="value" id="value">
+            <br><br><br>
+            <button onclick="QuirkySearch()">Αναζήτηση</button>
+       </div>
+            <br><br>
+            <h1 id="header">Αίθουσες:</h1>
+            
+            <div class="init" id="start">
+                <br>
+                <div class="box" onclick="loadRoom('room1')">
+                    <img src="images/pic1.jpg" alt="Your Image">
+                    <div class="info">
+                      <h2>Αίθουσα 1</h2>
+                      <p>Μια αίθουσα στο πανεπιστήμιο είναι ένας χώρος που χρησιμοποιείται για διάφορους σκοπούς, <br>
+                        όπως μαθήματα,διαλέξεις, σεμινάρια, εξετάσεις, παρουσιάσεις και συναντήσεις.</p>
+                      <h5>Τιμή: € 100 </h5>
+                    </div>
+                </div>
+
+                <div class="box" onclick="loadRoom('room2')">
+                    <img src="images/pic2.jpg" alt="Your Image">
+                    <div class="info">
+                      <h2>Αίθουσα 2</h2>
+                      <p>Το Etal Club, μια σάλα υψηλών απαιτήσεων, που συνδυάζει ιδανικά την καλαισθησία, <br>
+                      την ποιότητα των υπηρεσιών αλλά και τις προσιτές τιμές.</p>
+                      <h5>Τιμή: € 500 </h5>
+                    </div>
+                </div>
+
+                <div class="box" onclick="loadRoom('room3')">
+                    <img src="images/pic3.jpg" alt="Your Image">
+                    <div class="info">
+                      <h2>Αίθουσα 3</h2>
+                      <p>Το Είς Υγείαν, ανοίγει τις υπέροχες πόρτες του και σας καλωσορίζει σε έναν χώροφτιαγμένο από πέτρα<br>
+                         και φώς, που περιμένει εσάς με την μοναδική σας ενέργεια,να αφήσετε ανεξίτηλο το σημάδι σας .</p>
+                      <h5>Τιμή: € 800 </h5>
+                    </div>
+                </div>
+
+                <div class="box" onclick="loadRoom('room4')">
+                    <img src="images/pic4.jpg" alt="Your Image">
+                    <div class="info">
+                      <h2>Αίθουσα 4</h2>
+                      <p>Στην Αίθουσα Τελετών πραγματοποιούνται όλες οι επίσημες και μεγάλες εκδηλώσεις του Πανεπιστημίου <br>
+                        (ορκωμοσίες, αναγορεύσεις, συνέδρια, συναυλίες, εκδηλώσεις εθνικών επετείων κ.ά.).</p>
+                      <h5>Τιμή: € 150 </h5>
+                    </div>
+                </div>
+
+                <div class="box" onclick="loadRoom('room5')">
+                    <img src="images/pic5.jpg" alt="Your Image">
+                    <div class="info">
+                      <h2>Αίθουσα 5</h2>
+                      <p>Οι καινούργιοι μεγάλοι χώροι του GALA EVENTS ξεχωρίζουν για τα ποιοτικά υλικά κατασκευής <br>
+                      τους αλλά και την πολυτέλεια που εκπέμπουν.</p>
+                      <h5>Τιμή: € 950 </h5>
+                    </div>
+                </div>
+                <br><br><br>
+            </div>
+
+            
+            <div class="info" id="Chose" style="display:none;">
+                <br><br>
+                <img id="img" alt="Room cover page">
+             
+                <label id="id_room"></label>
+                <br><br><br><br>
+                <label id="room_name"></label>
+                <br><br><br><br>
+                <label id="floor"></label>
+                <br><br><br><br>
+                <label id="capacity"></label>
+                <br><br><br><br><br><br>
+                <label id="address"></label>
+                <br><br><br><br><br><br>
+                <label id="type"></label>
+                <br><br><br><br><br><br>
+                <label id="facilities"></label>
+                <br><br><br><br><br><br>
+                <label id="price"></label>
+
+
+                <div class="right" id="Hide_right" style="display:none;">
+                
+                <br><br><br><br><br><br><br><br>
+                <p id="Rooms"></p>
+                <br><br>
+                </div>
+                
+                <br><br><br><br>
+                <div class="Order">
+                    <button onclick="Show(2)">Κράτηση</button>
+
+                <div class="Available">
+                    <button onclick="Availability()">Διαθεσιμότητα</button>
+                </div>
+                <button onclick="go_back()">Πίσω</button>
+            </div>
+            
+        <script src="employee.js"></script>
+    </body>
+</html>

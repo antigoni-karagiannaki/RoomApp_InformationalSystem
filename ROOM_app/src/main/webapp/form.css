@@ -1,0 +1,194 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+ }
+
+h1{
+    color: #fff;
+}
+
+body{
+background: url('background.jpg') ;
+background-size: cover;
+background-color: #fff;
+height: 1400px;
+}
+
+.tmp {
+
+  margin-left: 715px;
+  background-color:rgba(255,255,255,.7);
+  border-radius: 20px; 
+  width: 500px;
+  height:1300px;
+}
+
+
+.displayBadge{
+    margin-left:30px; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: none; 
+    font-size: 20px;
+}
+
+h2{
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: red;
+}
+
+.Reg_form{
+    color:#000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+}
+ h1{
+   font-size: 40px;
+   text-align: center;
+   text-transform: uppercase;
+}
+
+
+.Reg_form p{
+ font-size: 20px;
+ margin: 15px 0;
+}
+
+.Reg_form input{
+    border: 1px solid #000;
+    font-size: 16px;
+    padding: 10px 10px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+}
+
+
+.Reg_form select{
+    font-size: 16px;
+    padding: 10px 10px;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    outline: none;
+}
+
+
+.Reg_form button{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 10px;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    
+}
+
+button:hover{
+    font-size: 23px;
+    border-radius: 5px; 
+}
+
+.check input{
+    font-size: 16px;
+    padding: 10px 10px;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+.check p{
+    font-size: 20px;
+    margin: 15px 0;
+}
+.check label{
+    color:#000;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.div p{
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+input[type="radio"]{
+    margin-top: 0px;
+    margin-left: 5px;
+    font: inherit;
+    width: 1.15em;
+    height: 1.15em;
+
+}
+
+.eye_1{
+    margin-top: 12px;
+    position: absolute;
+    margin-left: 5px;
+}
+.pass_w input{
+    font-size: 16px;
+    padding: 10px 10px;
+    width: 94%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    outline: none;    
+}
+.pass_ch input{
+    font-size: 16px;
+    padding: 10px 10px;
+    width: 94%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    outline: none;    
+}
+.eye_2{
+    margin-top: 12px;
+    position: absolute;
+    margin-left: 5px;
+}
+
+.check_box p{
+    font-size: 20px;
+    width: 65%;
+    margin-top: 0px;
+    position: absolute;
+}
+
+input[type="checkbox"]{
+    margin-top: 0px;
+    margin-left: 265px;
+    font: inherit;
+    width: 1.30em;
+    height: 1.30em;
+}
+
+
+.temp button{
+
+    margin-left: 950px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 10px;
+    margin-bottom: 40px;
+    padding: 10px 15px;
+    width: 40%;
+    border: 1px solid #000;
+    border-radius: 5px;  
+}
+
+.temp button:hover{
+
+    font-size: 23px;
+    border-radius: 5px; 
+}

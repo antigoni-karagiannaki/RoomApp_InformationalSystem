@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="index.css" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" >
+    </head>
+    <body >
+        <header>
+            <h1>Συνδεση</h1>
+        </header>
+        <form id="form">
+            <div class="inputs">
+                <br><br><br>
+                <label for="username">Όνομα χρήστη:</label> 
+                <!---<input type="text" name="username" id="username"  pattern="[A-Za-z]{8,}" title=" Όνομα χρήστη" required>-->
+                <input type="text" name="username" id="username"  >
+                <br><br>
+
+                <label for="password">Κωδικός πρόσβασης:</label>
+                <input type="password" name="password" id="password" placeholder="*********" title="Κωδικός χρήστη"  required>
+                <!-- pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,12}$" -->
+
+                <span class = "eye" onclick= Show_Password()>
+                    <i class="fa-solid fa-eye"></i>
+                </span>
+
+                <div>
+                    <br><br><br><br><br>
+                    <button onclick= 'log_in();return false'>Σύνδεση</button>
+                    <br>
+                </div>
+
+                <div>
+                    <a href="http://localhost:8080/CS351_web_app/form.html">Δημιουργία λογαριασμού</a>
+                    <br>
+                </div>
+
+                <br>
+
+            </div>
+        </form>
+        <script src="Log_in.js"></script>
+    </body>
+</html>

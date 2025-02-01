@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+ }
+
+.sidenav {
+  overflow: hidden;
+  background-color:rgba(255,255,255,.7);
+  border-radius: 20px;
+  height: 100px;
+}
+
+
+.sidenav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  
+}
+
+.sidenav a:hover {
+font-size: 30px;
+}
+
+img{
+    width: 110px;
+    height: 80px;
+    padding: 15px;
+    margin-left: 120px;
+
+}
+
+.left {
+  margin-top: 115px;
+  margin-left: 1355px;
+  overflow: hidden;
+  position:absolute ;
+  background-color:rgba(255,255,255,.9);
+  border-radius: 20px; 
+  width: 530px;
+  height:300px;
+}
+
+.left  img{
+    border-radius: 50%; 
+    width:80px;
+    height: 80px;
+    margin-left: 80px;
+}
+
+.left p{
+    margin-left: 10px;
+}
+
+#value{
+    font-size: 18px;
+}
+
+body{
+background: url('background.jpg') ;
+background-size: cover;
+background-color: #fff;
+height: 1180px;
+}
+h1{
+    margin: 0px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    font-size: 60px;
+    color:#fff;
+ }
+ 
+.init{ 
+    margin-top: 10px;
+    margin-left: 100px;
+    background-color:rgba(255,255,255,.3);
+    border-radius: 20px; 
+    width: 1200px;
+    height:1250px;
+ }
+
+ .init label{
+    margin-top:20px;
+    position:absolute ;
+    margin-left: 100px;
+    font-size: 30px;
+    color:black;
+ }
+ 
+.info{
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color:rgba(255,255,255,.3);
+    border-radius: 20px; 
+    width: 1200px;
+    height:600px; 
+ }
+ 
+ .info label{
+    position:absolute ; 
+    margin-top: 50px;
+    position:absolute ;
+    font-size: 30px;
+    color:black; 
+ }
+ 
+ .info img{
+    border-radius: 40px; 
+    width:300px;
+    height: 500px;
+    margin-left: 10px;  
+ }
+ 
+ .info button{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 10px;
+    margin-top: 20px;
+    margin-left: 1003px;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 5px; 
+ }
+
+ .info h5{
+    color: black;
+    margin-top: 30px;
+    margin-left: 850px;
+    font-weight: bold;
+    font-size: 25px;
+ }
+ 
+ a{
+    margin: 20px;
+    float:next;
+    font-size: 30px;
+    color:black;
+ }
+ a:hover{
+    font-size: 35px; 
+ }
+ 
+ label{
+     margin: 20px;
+    float:next;
+    font-size: 30px;
+    color:black;  
+ }
+ 
+ img{
+     float:left;
+     margin-left: 20px;
+     margin-right: 10px;
+     border-radius: 10px;
+ }
+ 
+ .init label:hover{
+     font-size: 35px;
+     
+ }
+
+button{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 10px;
+    margin-top: 20px;
+    margin-left: 185px;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 5px;
+    
+}
+
+.left h3{
+    font-size: 23px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.left label{
+    margin-left: 20px;
+    font-size: 20px;
+    color:black;
+ }
+
+
+.left input{
+    margin-left: 20px;
+    border: 1px solid #000;
+    font-size: 10px;
+    padding: 10px 10px;
+    width: 45%;
+    border-radius: 5px;
+    outline: none;
+}
+
+.inner_left label{
+    margin-left:10px;
+    font-size: 20px;
+    color:black;
+ }
+ 
+.inner_left input[type="radio"]{
+    margin-top: 0px;
+    margin-left: 10px;
+    font: inherit;
+    width: 1.15em;
+    height: 1.15em;
+
+}
+
+.inner_left button{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 10px;
+    margin-top: 20px;
+    margin-left: 290px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.inner_left button:hover{
+    font-size: 21px;
+    border-radius: 5px; 
+}
+
+.box {
+    align-items: center;
+    width: 1130px;
+    height: 230px;
+    background-color:rgba(255,255,255,.9);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 30px;
+    margin-bottom: 15px;
+  }
+  .box img {
+    width: 280px;
+    height: 200px;
+  }
+  .box .info {
+    text-align: left;
+  }
+  .box h2 {
+    font-size: 20px;
+    color: #333;
+  }
+  .box p {
+    font-size: 16px;
+    color: #999;
+  }
